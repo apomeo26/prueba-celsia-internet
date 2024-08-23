@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador de clientes y servicios</title>
+    <link rel="stylesheet" href="../css/styles.css">    
+</head>
+<body>
+    
+    <form id="formClient">
+        <a href="../index.html" class="btn-secondary">Atrás</a>
+        <h1 class="title-initial">Registrar Cliente</h1>
+        <label for="nombre">Nombres:</label>
+        <input type="text" id="nombres" name="nombres" required> 
+        
+        <label for="apellido">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+
+        <label for="Identificacion">Tipo de identificación:</label>
+        <select id="tipoIdentificacion" name="tipoIdentificacion" required>
+            <option value="CC" selected>CC</option>
+            <option value="TI" >TI</option>
+            <option value="CE">CE</option>
+            <option value="RC">RC</option>
+        </select>       
+                
+        <label for="identificacion">Número de identificación</label>
+        <input type="text" minlength="6" maxlength="10" name="numeroIdentificacion" id="numeroIdentificacion" required>
+
+        <label for="Nacimiento">Fecha de nacimiento: </label>
+        <input type="date" id="fechaNacimiento" required>
+
+        <label for="Celular">Número de celular</label>
+        <input type="tel" minlength="10" maxlength="10" name="numeroCelular" id="numeroCelular" required>
+
+        <label for="correo">Correo electrónico</label>
+        <input type="email" name="correoElectronico" id="correoElectronico" required>        
+        
+        <button type="submit" class="btn-primary">Guardar</button>
+    </form>
+    <script src="../js/scripts.js"></script>    
+</body>
+</html>

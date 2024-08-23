@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador de clientes y servicios</title>
+    <link rel="stylesheet" href="../css/styles.css">    
+</head>
+<body>
+    
+    <form id="formService">
+        <a href="../index.html" class="btn-secondary">Atrás</a>
+        <h1 class="title-initial">Registrar Servicios</h1>
+        <label for="servicio">Servicio:</label>
+        <select id="servicios" name="servicios" required>
+            <option value="Internet 200 MB" selected>Internet 200 MB</option>
+            <option value="Internet 400 MB" >Internet 400 MB</option>
+            <option value="Internet 600 MB">Internet 600 MB</option>
+            <option value="Directv Go">Directv Go</option>
+            <option value="Paramount+">Paramount+</option>
+            <option value="Win+">Win+</option>
+        </select>        
+                                         
+        <label for="identificacion">Número de identificación:</label>
+        <input type="text" minlength="6" maxlength="10" name="numeroIdentificacion" id="numeroIdentificacion" required>
+
+        <label for="inicio">Fecha de inicio: </label>
+        <input type="date" id="fechainicio" required>
+
+        <label for="uFacturacion">Ultima facturacion: </label>
+        <input type="date" id="facturacion" required>
+
+        <label for="uPago">Ultimo pago: </label>
+        <input type="date" id="pago" required>
+                  
+        <button type="submit" class="btn-primary">Guardar</button>        
+    </form>
+    <script src="../js/scripts.js"></script>
+
+    <h2></h2>
+</body>
+</html>

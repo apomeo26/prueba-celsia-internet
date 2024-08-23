@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: “Helvetica”, arial, sans-serif;
+}
+
+h1,
+h2,
+label {
+    color: #333;
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-family: “Helvetica”, arial, sans-serif;
+}
+
+.text-initial {
+    max-width: 800px;
+    margin: 40px auto;
+    margin-top: 15%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title-initial {
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition-duration: 0.4s;    
+}
+
+.btn-primary:hover {
+    background: #0b7dda;    
+    
+}
+
+.btn-secondary {
+    background-color: #e7e7e7;
+    color: black;   
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+
+.btn-secondary:hover {
+    background-color: #333;    
+    color: white;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn-delete {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+
+}
